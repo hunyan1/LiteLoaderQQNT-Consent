@@ -1,0 +1,16 @@
+{
+    "manifest_version": 4,
+    "type": "extension",
+    "name": "自动同意好友",
+    "slug": "consent",
+    "description": "一个自动同意好友的插件！",
+    "version": "0.1.0",
+    "authors": [{
+        "name": "hunyan1",
+        "link": "https://github.com/hunyan1"
+    }],
+    "platform": ["win32", "linux", "darwin"],
+    "injects": {
+        "main": "./src/main.js"
+    }
+}
